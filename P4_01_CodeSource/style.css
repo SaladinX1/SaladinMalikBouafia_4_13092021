@@ -914,8 +914,13 @@ p {
 
   a {
     width: 570px;
-    height: 570px;
+    height: 400px;
   }
+
+  .text-center {
+    padding: 15px;
+  }
+
   .text-center a {
     height: 50px;
     width: 150px;
@@ -929,10 +934,15 @@ p {
     margin-left: 5%;
     margin-right: 5%;
   }
+
+  .col-sm-6 img {
+    object-fit: cover;
+  }
+
   .row-footer {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     margin-top: 40px;
   }
   h1,
