@@ -803,15 +803,20 @@
 
 .fa-phone-square:before {
   content: "\f098";
+
 }
 
 .fa-twitter:before {
   content: "\f099";
+  font-size: 5rem;
+  color: rgb(0, 162, 255);
 }
 
 .fa-facebook-f:before,
 .fa-facebook:before {
   content: "\f09a";
+  font-size: 5rem;
+  color: rgb(0, 162, 255);
 }
 
 .fa-github:before {
@@ -1583,6 +1588,8 @@
 
 .fa-instagram:before {
   content: "\f16d";
+  font-size: 5rem;
+  color: rgb(174, 0, 255);
 }
 
 .fa-flickr:before {
@@ -1643,6 +1650,8 @@
 
 .fa-dribbble:before {
   content: "\f17d";
+  font-size: 5rem;
+  color: rgb(0, 0, 0);
 }
 
 .fa-skype:before {

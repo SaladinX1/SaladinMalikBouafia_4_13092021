@@ -100,11 +100,16 @@ a:hover {
 }
 
 .d-bloc {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc button:hover {
   color: rgba(255, 255, 255, 0.9);
+}
+
+.d-bloc button:focus {
+  color: rgba(255, 255, 255, 1);
+  border: 2px solid #3bc1ff;
 }
 
 .d-bloc .icon-round,
@@ -113,6 +118,14 @@ a:hover {
 .d-bloc .icon-semi-rounded-a,
 .d-bloc .icon-semi-rounded-b {
   border-color: rgba(255, 255, 255, 0.9);
+}
+
+.d-bloc .icon-round:focus,
+.d-bloc .icon-square:focus,
+.d-bloc .icon-rounded:focus,
+.d-bloc .icon-semi-rounded-a:focus,
+.d-bloc .icon-semi-rounded-b:focus {
+  border: 2px solid #3bc1ff;
 }
 
 .d-bloc .divider-h span {
@@ -670,8 +683,9 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757;
+  color: #000000;
 }
+
 
 .container {
   max-width: 1000px;
@@ -804,7 +818,7 @@ h4 {
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff;
+  color: #000000;
 }
 
 .btn-atomic-tangerine:hover {
@@ -932,7 +946,7 @@ p {
 
   a {
     width: 570px;
-    height: 400px;
+    
   }
 
   .text-center {
