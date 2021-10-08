@@ -38,19 +38,16 @@
 		<nav class="navbar row" aria-expanded="true" >
 			<div class="navbar-header">
 				<a class="navbar-brand" href="index.html"><img src="./P4_01_CodeSource/img/la-chouette-agence.png" alt="atlanta web design logo" height="40" /></a>
-				<button id="nav-toggle" type="button"  aria-label="true" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					toggle navigation
+				<button  id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
-				<div class="navbar-collapse navbar-1 special-dropdown-nav collapse in" aria-expanded="true" style="">
+				<div class="navbar-collapse navbar-1 special-dropdown-nav collapse in" aria-expanded="true" style>
 					<ul class="site-navigation nav navbar-nav">
-						<li>
+						<li class="nav-option">
 							<a href="index.html" title="Accueil">Accueil</a>
 						</li>
-						<li>
-							<a href="index.html#bloc-2-services" title="Nos métiers">Nos métiers</a>
-						</li>
-						<li>
-							<a href="index.html#bloc-4-portfolio" title="Nos réalisations">Nos réalisations</a>
+						<li class="nav-option" >
+							<a href="index.html#bloc-2-services" title="Nos métiers">Contactez-nous</a>
 						</li>
 					</ul>
 				</div>
@@ -86,25 +83,25 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent."  role=”form” fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"  >
 					<div class="form-group">
-						<label aria-label="true">
+						<label aria-label="true" role="form">
 							Nom
 						</label>
 						<input id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label aria-label="true">
+						<label aria-label="true" role="form">
 							Adresse email
 						</label>
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label aria-label="true">
+						<label aria-label="true" role="form">
 							Comment nous avez-vous connu ?
 						</label>
 						<input class="form-control" type="email" required id="input_504" />
 					</div>
 					<div class="form-group">
-						<label aria-label="true">
+						<label aria-label="true" role="form">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
