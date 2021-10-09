@@ -2,10 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background: #fff;
-  
 }
-
-
 
 a,
 button {
@@ -28,10 +25,9 @@ a:hover {
 }
 
 .bloc {
-  
   clear: both;
   background: 50% 50% no-repeat;
-  
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -40,7 +36,6 @@ a:hover {
 }
 
 .bloc .container {
-  
   padding-right: 0;
 }
 
@@ -81,9 +76,6 @@ a:hover {
 }
 
 .bloc-bg-texture::before {
-  
-  
-  
   top: 0;
   bottom: 0;
   left: 0;
@@ -224,8 +216,6 @@ a:hover {
   border-color: rgba(0, 0, 0, 0.3);
 }
 
-
-
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
   color: rgba(0, 0, 0, 0.7);
@@ -314,25 +304,19 @@ a:hover {
 #bloc-1-hero h1 {
   font-size: 32px;
 }
-  
+
 .nav-option {
-  
   list-style-type: none !important;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
-  
-
 }
 
-.nav-option a { 
-  
+.nav-option a {
   position: relative;
   display: block;
-  padding: 10px 10px; 
-
+  padding: 10px 10px;
 }
-
 
 .navbar {
   margin-bottom: 0;
@@ -364,8 +348,7 @@ a:hover {
 
 .navbar .nav {
   padding-top: 2px;
- 
-  
+
   z-index: 1;
 }
 
@@ -374,8 +357,6 @@ a:hover {
   margin-top: 4px;
   font-size: 16px;
 }
-
-
 
 .navbar-nav .open .dropdown-menu > li > a {
   text-align: inherit;
@@ -388,7 +369,6 @@ a:hover {
 
 .navbar-toggle {
   padding: 10px;
-  
 }
 
 .navbar-toggle:hover {
@@ -509,8 +489,6 @@ nav .caret {
   background: rgba(0, 0, 0, 0.3);
 }
 
-
-
 .btn-rd {
   border-radius: 40px;
 }
@@ -558,8 +536,6 @@ nav .caret {
   box-shadow: none;
 }
 
-
-
 .showScrollTop {
   font-size: 14px;
   opacity: 1;
@@ -567,7 +543,7 @@ nav .caret {
 
 a[data-lightbox] {
   position: relative;
-  display: block;
+  
   text-align: center;
 }
 
@@ -694,8 +670,8 @@ a {
   color: #ffffff;
   text-decoration: none;
   position: relative;
-   
-    padding: 30px 25px;
+
+  padding: 30px 25px;
 }
 
 .container {
@@ -727,7 +703,6 @@ p {
 }
 
 .tight-width-whitespace {
-  
   margin: auto auto auto auto;
 }
 
@@ -942,6 +917,13 @@ p {
   font-size: 23px;
 }
 
+.navbar-collapse {
+  padding: 0;
+  overflow-x: hidden;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
 .row-footer {
   display: flex;
   flex-direction: row;
@@ -957,7 +939,6 @@ p {
 
   a {
     width: 570px;
-    
   }
 
   .text-center {
@@ -1005,12 +986,13 @@ p {
   .navbar .nav {
     padding-top: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
-    
   }
   .navbar.row {
     margin-left: 0;
     margin-right: 0;
   }
+
+
   .site-navigation {
     position: inherit;
     transform: none;
@@ -1022,7 +1004,7 @@ p {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     background: rgba(0, 0, 0, 0.05);
     text-align: left;
-    
+
     width: 100%;
   }
   .nav > li:hover {
@@ -1049,12 +1031,7 @@ p {
     left: -1px;
     right: -1px;
   }
-  .navbar-collapse {
-    padding: 0;
-   
-    -webkit-box-shadow: none;
-    box-shadow: none;
-  }
+  
   .navbar-brand img {
     max-height: 40px;
     width: auto;
@@ -1132,5 +1109,20 @@ p {
 @media (max-width: 767px) {
   .bloc-mob-center-text {
     text-align: center;
+  }
+
+  .navbar-collapse {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .collapse.in {
+    display: none;
+  }
+
+  .navbar-toggle:active  .collapse.in{
+
+       display: block;
+
   }
 }
