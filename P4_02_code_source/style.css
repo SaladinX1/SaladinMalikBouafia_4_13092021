@@ -279,8 +279,7 @@ a:hover {
 
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
-  padding-right: 0;
-  padding-left: 0;
+  
 }
 
 #bloc-1-hero h1 {
@@ -723,11 +722,16 @@ h2 {
   color: #000000;
 }
 
+
+.developper-aider {
+
+    color: rgb(255, 255, 255);
+}
+
 h3 {
-  font-size: 15px;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #333333 !important;
+  
+  
+  color: #333333 ;
 }
 
 .med-width-whitespace {
@@ -898,6 +902,7 @@ h4 {
 .msg {
   font-size: 2.5rem;
   font-weight: bold;
+  text-align: center;
 }
 
 @media (max-width: 767px) {
