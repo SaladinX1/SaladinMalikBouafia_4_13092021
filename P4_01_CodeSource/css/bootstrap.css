@@ -4326,7 +4326,9 @@ input[type="submit"].btn-block {
   display: none;
 }
 
-
+.collapse.in {
+  display: block;
+}
 
 tr.collapse.in {
   display: table-row;

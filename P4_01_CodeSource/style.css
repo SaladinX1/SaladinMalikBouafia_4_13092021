@@ -534,6 +534,8 @@ nav .caret {
 .form-control {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
+  padding: 20px;
+  margin: 20px;
 }
 
 .showScrollTop {
@@ -657,11 +659,19 @@ h4,
 h5,
 h6,
 p,
-label,
 .btn {
   font-family: "helvetica";
   font-weight: 400;
   color: #000000;
+}
+
+label {
+
+  font-family: "helvetica";
+  font-weight: 400;
+  color: #000000;
+  font-size: 1.5rem;
+
 }
 
 a {
@@ -817,7 +827,7 @@ h4 {
 }
 
 .ltc-white:hover {
-  color: #cccccc;
+  color: #48ff00;
 }
 
 .ltc-atomic-tangerine {
